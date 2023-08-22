@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@500&display=swap');
+
+:root{
+    --red:#EF233C;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.navbar-brand{
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: red;
+    
+}
+.navbar-brand:hover{
+    color: white;
+}
+.name{
+    font-size: 50px;  
+}
+.h-5,.s-2{
+     min-height: 550px;
+
+}
+.content{
+    font-size: 20px;
+}
+/* img{
+    width: 50%;
+    margin: 20px;
+    filter: drop-shadow(1px 1px 10px aqua);
+} */
+.btn-card{
+    padding: 10px 20px;
+}
+.card-title1{
+    font-size: 60px;  
+    font-weight: bolder;
+}
+.card-text1{
+    font-size: 16px;
+    text-align: justify;
+}
+/* .card-body1{
+    margin-right: -140px;
+} */
+.nav-item{
+    padding-left: 30px;
+}
+/* .card img{
+    height: 300px;
+} */
+.card-title{
+    color: red;
+    text-align: center;
+}
+.row{
+    margin: 0;
+}
+.icons i{
+    margin-left: 10px;
+}
+.icons i:hover{
+    filter: drop-shadow(1px 1px 5px red);
+}
+.heading{
+    margin-left:34% ;
+}
+
+
